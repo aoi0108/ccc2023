@@ -16,19 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-af-2jl">
-                                <rect key="frame" x="159" y="686" width="75" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="START">
-                                    <color key="titleColor" systemColor="linkColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="txt-4e-30s" kind="show" id="0dC-lc-dYq"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_3.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="KN9-64-u7T">
-                                <rect key="frame" x="-9" y="233" width="410" height="468"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_2.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="KN9-64-u7T">
+                                <rect key="frame" x="-33" y="150" width="458" height="622"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make Up Lesson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pei-6a-TG9">
@@ -38,9 +27,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-af-2jl">
+                                <rect key="frame" x="99" y="675" width="195" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="txt-4e-30s" kind="show" id="0dC-lc-dYq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -73,8 +74,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skincareImage_clear.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="2vU-FV-YMQ">
+                                <rect key="frame" x="16" y="271" width="359" height="424"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVf-0b-zgV">
-                                <rect key="frame" x="121" y="361" width="150" height="169"/>
+                                <rect key="frame" x="121" y="399" width="150" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -87,7 +92,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="G53-jV-ImH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qib-8S-w8B"/>
                 </viewController>
@@ -607,7 +612,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dTA-aw-Hkq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="PWD-Vh-9kU"/>
                 </viewController>
@@ -634,6 +639,10 @@
                                     <segue destination="txt-4e-30s" kind="show" id="e1c-TJ-PpW"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="makeup_clear.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="qUZ-2h-dIh">
+                                <rect key="frame" x="0.0" y="227" width="388" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please tap the face parts!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qh7-WR-rl0">
                                 <rect key="frame" x="50" y="131" width="292" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -642,9 +651,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrA-Sj-y7H">
-                                <rect key="frame" x="68" y="411" width="115" height="85"/>
+                                <rect key="frame" x="83" y="427" width="115" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="base make">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -654,9 +663,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtX-nQ-Ofa">
-                                <rect key="frame" x="227" y="290" width="115" height="85"/>
+                                <rect key="frame" x="83" y="360" width="115" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="eyebrow">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -666,7 +675,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncI-gb-A81">
-                                <rect key="frame" x="227" y="410" width="115" height="85"/>
+                                <rect key="frame" x="206" y="412" width="115" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -678,9 +687,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoU-m3-9Yt">
-                                <rect key="frame" x="139" y="559" width="115" height="85"/>
+                                <rect key="frame" x="137" y="493" width="115" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="mouth">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -691,7 +700,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iJg-jz-WH7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.96470588450000005" green="0.80392158030000005" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="t6v-0o-zjU"/>
                 </viewController>
@@ -763,7 +772,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mmO-Gk-TKB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="6lr-zQ-mcj"/>
                 </viewController>
@@ -824,7 +833,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kYX-ai-Zeo"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="l1Y-Oh-RAg"/>
                 </viewController>
@@ -884,7 +893,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NhI-DJ-jxf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZeF-IC-QbH"/>
                 </viewController>
@@ -943,7 +952,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V3I-KD-72H"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="3FU-5O-kgd"/>
                 </viewController>
@@ -1003,7 +1012,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2ko-K0-0XD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </view>
                     <navigationItem key="navigationItem" id="qfD-Ex-aIs"/>
                 </viewController>
@@ -1020,27 +1029,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7KF-ML-kdA">
-                                <rect key="frame" x="35" y="246" width="297" height="78"/>
+                                <rect key="frame" x="96" y="233" width="297" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="スキンケアtips">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="1qI-gV-MRN" kind="show" id="Oyg-eR-ZVW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mb-mm-WQD">
-                                <rect key="frame" x="48" y="474" width="297" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="メイクアップtips">
-                                    <color key="titleColor" systemColor="linkColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="9Ql-dD-E41" kind="show" id="SbZ-Xk-cYy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ful-pG-XU4">
@@ -1050,6 +1047,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jewel_green.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Cbg-uj-CBS">
+                                <rect key="frame" x="16" y="227" width="110" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jewel_pink.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="vvN-cN-udo">
+                                <rect key="frame" x="12" y="445" width="118" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mb-mm-WQD">
+                                <rect key="frame" x="101" y="445" width="297" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="メイクアップtips">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Ql-dD-E41" kind="show" id="SbZ-Xk-cYy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PJV-OB-RNH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1062,20 +1079,24 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0dC-lc-dYq"/>
-        <segue reference="LBw-0Z-JeL"/>
-        <segue reference="lhC-mD-H4j"/>
-        <segue reference="z5k-EO-YZc"/>
-        <segue reference="Bi2-dc-WIK"/>
+        <segue reference="qNu-XJ-OlJ"/>
+        <segue reference="uCJ-jS-0mc"/>
+        <segue reference="SbZ-Xk-cYy"/>
+        <segue reference="f9q-NU-M8s"/>
+        <segue reference="bjO-0l-Ctp"/>
         <segue reference="Oyg-eR-ZVW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="eyebrow.png" width="320" height="534"/>
         <image name="eyeliner.jpg" width="318" height="544"/>
         <image name="eyeshadow.jpg" width="900" height="515"/>
-        <image name="home_3.PNG" width="1440" height="2560"/>
+        <image name="home_2.PNG" width="1440" height="2560"/>
+        <image name="jewel_green.PNG" width="2048" height="2048"/>
+        <image name="jewel_pink.PNG" width="2048" height="2048"/>
         <image name="lip.jpg" width="562" height="700"/>
+        <image name="makeup_clear.PNG" width="1536" height="2048"/>
         <image name="mascara.jpg" width="375" height="700"/>
+        <image name="skincareImage_clear.PNG" width="1536" height="2048"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

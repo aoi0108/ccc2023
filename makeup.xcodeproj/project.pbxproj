@@ -22,6 +22,13 @@
 		FE824DDF2A8F478700C6E455 /* makeupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DDE2A8F478700C6E455 /* makeupTests.swift */; };
 		FE824DE92A8F478700C6E455 /* makeupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DE82A8F478700C6E455 /* makeupUITests.swift */; };
 		FE824DEB2A8F478700C6E455 /* makeupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DEA2A8F478700C6E455 /* makeupUITestsLaunchTests.swift */; };
+		FE86FED42A9F5A120068533F /* home_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FED32A9F5A120068533F /* home_2.PNG */; };
+		FE86FED62A9F5A530068533F /* jewel_green.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FED52A9F5A530068533F /* jewel_green.PNG */; };
+		FE86FED82A9F5A590068533F /* jewel_pink.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FED72A9F5A590068533F /* jewel_pink.PNG */; };
+		FE86FEDA2A9F5A5F0068533F /* skincarexImage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FED92A9F5A5F0068533F /* skincarexImage.PNG */; };
+		FE86FEDC2A9F5A640068533F /* makeupImage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FEDB2A9F5A640068533F /* makeupImage.PNG */; };
+		FE86FEDE2A9F5D270068533F /* makeup_clear.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FEDD2A9F5D270068533F /* makeup_clear.PNG */; };
+		FE86FEE02A9F5D2C0068533F /* skincareImage_clear.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE86FEDF2A9F5D2C0068533F /* skincareImage_clear.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,13 @@
 		FE824DE42A8F478700C6E455 /* makeupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = makeupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE824DE82A8F478700C6E455 /* makeupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeupUITests.swift; sourceTree = "<group>"; };
 		FE824DEA2A8F478700C6E455 /* makeupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE86FED32A9F5A120068533F /* home_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_2.PNG; sourceTree = "<group>"; };
+		FE86FED52A9F5A530068533F /* jewel_green.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_green.PNG; sourceTree = "<group>"; };
+		FE86FED72A9F5A590068533F /* jewel_pink.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_pink.PNG; sourceTree = "<group>"; };
+		FE86FED92A9F5A5F0068533F /* skincarexImage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skincarexImage.PNG; sourceTree = "<group>"; };
+		FE86FEDB2A9F5A640068533F /* makeupImage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeupImage.PNG; sourceTree = "<group>"; };
+		FE86FEDD2A9F5D270068533F /* makeup_clear.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeup_clear.PNG; sourceTree = "<group>"; };
+		FE86FEDF2A9F5D2C0068533F /* skincareImage_clear.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skincareImage_clear.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,13 @@
 		FE824DC62A8F478400C6E455 /* makeup */ = {
 			isa = PBXGroup;
 			children = (
+				FE86FEDF2A9F5D2C0068533F /* skincareImage_clear.PNG */,
+				FE86FEDD2A9F5D270068533F /* makeup_clear.PNG */,
+				FE86FEDB2A9F5A640068533F /* makeupImage.PNG */,
+				FE86FED92A9F5A5F0068533F /* skincarexImage.PNG */,
+				FE86FED72A9F5A590068533F /* jewel_pink.PNG */,
+				FE86FED52A9F5A530068533F /* jewel_green.PNG */,
+				FE86FED32A9F5A120068533F /* home_2.PNG */,
 				FE469C8A2A9EBFEE009CE210 /* lip.jpg */,
 				FE469C882A9EBF17009CE210 /* mascara.jpg */,
 				FE469C862A9EBE97009CE210 /* eyeliner.jpg */,
@@ -251,11 +272,18 @@
 			files = (
 				FE469C812A9EBADC009CE210 /* home_3.PNG in Resources */,
 				FE469C832A9EBC49009CE210 /* eyeshadow.jpg in Resources */,
+				FE86FEDC2A9F5A640068533F /* makeupImage.PNG in Resources */,
+				FE86FEE02A9F5D2C0068533F /* skincareImage_clear.PNG in Resources */,
 				FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */,
+				FE86FED62A9F5A530068533F /* jewel_green.PNG in Resources */,
+				FE86FED42A9F5A120068533F /* home_2.PNG in Resources */,
 				FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */,
 				FE824DD42A8F478600C6E455 /* LaunchScreen.storyboard in Resources */,
+				FE86FEDE2A9F5D270068533F /* makeup_clear.PNG in Resources */,
 				FE824DD12A8F478600C6E455 /* Assets.xcassets in Resources */,
+				FE86FEDA2A9F5A5F0068533F /* skincarexImage.PNG in Resources */,
 				FE824DCF2A8F478400C6E455 /* Main.storyboard in Resources */,
+				FE86FED82A9F5A590068533F /* jewel_pink.PNG in Resources */,
 				FE469C852A9EBD41009CE210 /* eyebrow.png in Resources */,
 				FE469C872A9EBE97009CE210 /* eyeliner.jpg in Resources */,
 			);
