@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE469C812A9EBADC009CE210 /* home_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE469C802A9EBADC009CE210 /* home_3.PNG */; };
+		FE469C832A9EBC49009CE210 /* eyeshadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C822A9EBC49009CE210 /* eyeshadow.jpg */; };
+		FE469C852A9EBD41009CE210 /* eyebrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE469C842A9EBD41009CE210 /* eyebrow.png */; };
+		FE469C872A9EBE97009CE210 /* eyeliner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C862A9EBE97009CE210 /* eyeliner.jpg */; };
+		FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C882A9EBF17009CE210 /* mascara.jpg */; };
+		FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C8A2A9EBFEE009CE210 /* lip.jpg */; };
 		FE824DC82A8F478400C6E455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DC72A8F478400C6E455 /* AppDelegate.swift */; };
 		FE824DCA2A8F478400C6E455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DC92A8F478400C6E455 /* SceneDelegate.swift */; };
 		FE824DCC2A8F478400C6E455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DCB2A8F478400C6E455 /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE469C802A9EBADC009CE210 /* home_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_3.PNG; sourceTree = "<group>"; };
+		FE469C822A9EBC49009CE210 /* eyeshadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeshadow.jpg; sourceTree = "<group>"; };
+		FE469C842A9EBD41009CE210 /* eyebrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyebrow.png; sourceTree = "<group>"; };
+		FE469C862A9EBE97009CE210 /* eyeliner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeliner.jpg; sourceTree = "<group>"; };
+		FE469C882A9EBF17009CE210 /* mascara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mascara.jpg; sourceTree = "<group>"; };
+		FE469C8A2A9EBFEE009CE210 /* lip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lip.jpg; sourceTree = "<group>"; };
 		FE824DC42A8F478400C6E455 /* makeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE824DC72A8F478400C6E455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE824DC92A8F478400C6E455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +111,12 @@
 		FE824DC62A8F478400C6E455 /* makeup */ = {
 			isa = PBXGroup;
 			children = (
+				FE469C8A2A9EBFEE009CE210 /* lip.jpg */,
+				FE469C882A9EBF17009CE210 /* mascara.jpg */,
+				FE469C862A9EBE97009CE210 /* eyeliner.jpg */,
+				FE469C842A9EBD41009CE210 /* eyebrow.png */,
+				FE469C822A9EBC49009CE210 /* eyeshadow.jpg */,
+				FE469C802A9EBADC009CE210 /* home_3.PNG */,
 				FE824DC72A8F478400C6E455 /* AppDelegate.swift */,
 				FE824DC92A8F478400C6E455 /* SceneDelegate.swift */,
 				FE824DCB2A8F478400C6E455 /* ViewController.swift */,
@@ -231,9 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE469C812A9EBADC009CE210 /* home_3.PNG in Resources */,
+				FE469C832A9EBC49009CE210 /* eyeshadow.jpg in Resources */,
+				FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */,
+				FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */,
 				FE824DD42A8F478600C6E455 /* LaunchScreen.storyboard in Resources */,
 				FE824DD12A8F478600C6E455 /* Assets.xcassets in Resources */,
 				FE824DCF2A8F478400C6E455 /* Main.storyboard in Resources */,
+				FE469C852A9EBD41009CE210 /* eyebrow.png in Resources */,
+				FE469C872A9EBE97009CE210 /* eyeliner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
