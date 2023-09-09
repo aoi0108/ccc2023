@@ -134,7 +134,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTo-4Y-XbL">
-                                <rect key="frame" x="35" y="452" width="323" height="168"/>
+                                <rect key="frame" x="35" y="534" width="323" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">&lt;&lt;使い方&gt;&gt;
 順番は化粧水の後、美容液の前。手のひらにとり、擦らないように顔全体に優しくなじませます。顔全体を包み込むように軽くおさえて美容液を浸透させるイメージで、優しくハンドプレスします。</string>
@@ -426,7 +426,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O2-dU-mKN">
-                                <rect key="frame" x="16" y="439" width="361" height="157"/>
+                                <rect key="frame" x="16" y="537" width="361" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">&lt;&lt;使い方 &gt;&gt;
 水分を補給して肌がモチっと弾力を帯びるまで、たっぷりと肌に染み込ませてください。手で使用してもコットンを使っても良いです。肌が十分潤ったと感じるまで、たっぷりと使いましょう。</string>
@@ -434,6 +434,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kesyousui.png" translatesAutoresizingMaskIntoConstraints="NO" id="hk0-F2-3xk">
+                                <rect key="frame" x="60" y="299" width="256" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fPE-qQ-O3c"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.94492443640000001" blue="0.69827616380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -477,8 +481,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nyuueki.png" translatesAutoresizingMaskIntoConstraints="NO" id="boy-iy-j3j">
+                                <rect key="frame" x="16" y="293" width="318" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idW-0o-aqX">
-                                <rect key="frame" x="16" y="473" width="361" height="167"/>
+                                <rect key="frame" x="16" y="495" width="361" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">&lt;&lt;使い方&gt;&gt;
 化粧水やパックの後、手を使って化粧水を塗った部分をカバーするように塗る。乾燥する部分と皮脂が気になる部分で量を調整してください。</string>
@@ -1168,7 +1176,7 @@
         <segue reference="uCJ-jS-0mc"/>
         <segue reference="lhC-mD-H4j"/>
         <segue reference="g4q-cS-ZwA"/>
-        <segue reference="Bi2-dc-WIK"/>
+        <segue reference="GFn-DZ-gNj"/>
         <segue reference="Oyg-eR-ZVW"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1181,9 +1189,11 @@
         <image name="home_2.PNG" width="1440" height="2560"/>
         <image name="jewel_green.PNG" width="2048" height="2048"/>
         <image name="jewel_pink.PNG" width="2048" height="2048"/>
+        <image name="kesyousui.png" width="643" height="664"/>
         <image name="lip.jpg" width="562" height="700"/>
         <image name="makeup_clear.PNG" width="1536" height="2048"/>
         <image name="mascara.jpg" width="375" height="700"/>
+        <image name="nyuueki.png" width="1600.0799560546875" height="1200"/>
         <image name="skincareImage_clear.PNG" width="1536" height="2048"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
