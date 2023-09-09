@@ -133,9 +133,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTo-4Y-XbL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTo-4Y-XbL">
                                 <rect key="frame" x="35" y="452" width="323" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">&lt;&lt;使い方&gt;&gt;
+順番は化粧水の後、美容液の前。手のひらにとり、擦らないように顔全体に優しくなじませます。顔全体を包み込むように軽くおさえて美容液を浸透させるイメージで、優しくハンドプレスします。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -194,7 +196,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzM-Fx-kTH">
-                                <rect key="frame" x="54" y="451" width="298" height="200"/>
+                                <rect key="frame" x="40" y="575" width="312" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">&lt;&lt;使い方&gt;&gt;
 シートマスク：順番は洗顔の後、化粧水の前後、または化粧水の代わりに使う。洗顔した後、シートをしっかり顔に密着させてのせる。商品に指定された時間（5分〜15分）載せたら、シートを外し、乳液やクリームでうるおいに蓋をする。</string>
@@ -202,6 +204,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facepack.png" translatesAutoresizingMaskIntoConstraints="NO" id="0VM-bM-yF9">
+                                <rect key="frame" x="58" y="324" width="294" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vba-bU-dIm"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.94492443640000001" blue="0.69827616380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -238,8 +244,20 @@
                                     <segue destination="kqp-Io-GMf" kind="show" id="g4q-cS-ZwA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9v-Yg-tW7">
+                                <rect key="frame" x="25" y="499" width="343" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">①手の甲に適量の下地をとり、指の腹に少しずつとって使用。まずは、頬全体に、指の腹全体を使って薄くのばし、密着させる。
+②額には頬よりもやや少なめの量を塗る。額の中央から全体に塗り、髪の生え際は丁寧にぼかし込むようにすると、自然な仕上がりに。
+③指に薄くとって鼻全体とあごにも薄く均一に塗る。毛穴が大きい小鼻の周りは、下から上へくるくると円を描くようにして密着させる。
+④よく動く目の際や法令線は下地がたまってヨレやすいので、仕上げに指の腹でならすように整える。最後に首筋へぼかし込む。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SU0-b8-Zva">
-                                <rect key="frame" x="34" y="169" width="324" height="181"/>
+                                <rect key="frame" x="34" y="186" width="324" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">ファンデーションのノリをよくするためのもの。
 </string>
@@ -283,7 +301,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="肌の色を明るく見せたり、ニキビ・毛穴などの肌悩みをカバーしたりなど、綺麗な肌を演出するためのコスメ。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QK-hB-2Cn">
-                                <rect key="frame" x="32" y="247" width="319" height="181"/>
+                                <rect key="frame" x="37" y="229" width="319" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -299,6 +317,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1910.png" translatesAutoresizingMaskIntoConstraints="NO" id="aYZ-ng-oTN">
+                                <rect key="frame" x="29" y="308" width="327" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HTI-aI-Ggj"/>
                         <color key="backgroundColor" red="0.7254902124" green="0.8392156959" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -344,7 +366,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWQ-ie-OHD">
-                                <rect key="frame" x="37" y="442" width="309" height="210"/>
+                                <rect key="frame" x="37" y="576" width="309" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> &lt;&lt;使い方&gt;&gt;
 使うファンデーションが、リキッド/クッション/クリーム/スティック ファンデーションの場合はファンデの後
@@ -355,6 +377,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="consealer.png" translatesAutoresizingMaskIntoConstraints="NO" id="GAo-Dk-YZF">
+                                <rect key="frame" x="128" y="308" width="136" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QAQ-3m-ENE"/>
                         <color key="backgroundColor" red="0.7254902124" green="0.8392156959" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -444,16 +470,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="化粧水のうるおいを肌に留めるようにフタをするもの。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7i-Rt-h3m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="化粧水のうるおいを肌に留めるようにフタをするもの。保湿クリームを代わりに使用してもOK。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7i-Rt-h3m">
                                 <rect key="frame" x="54" y="208" width="282" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idW-0o-aqX">
-                                <rect key="frame" x="16" y="406" width="361" height="167"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idW-0o-aqX">
+                                <rect key="frame" x="16" y="473" width="361" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">&lt;&lt;使い方&gt;&gt;
+化粧水やパックの後、手を使って化粧水を塗った部分をカバーするように塗る。乾燥する部分と皮脂が気になる部分で量を調整してください。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1139,14 +1167,17 @@
         <segue reference="qNu-XJ-OlJ"/>
         <segue reference="uCJ-jS-0mc"/>
         <segue reference="lhC-mD-H4j"/>
-        <segue reference="1pv-si-BRn"/>
-        <segue reference="huh-lg-UsR"/>
+        <segue reference="g4q-cS-ZwA"/>
+        <segue reference="Bi2-dc-WIK"/>
         <segue reference="Oyg-eR-ZVW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1910.png" width="640" height="480"/>
+        <image name="consealer.png" width="1336.800048828125" height="3501.60009765625"/>
         <image name="eyebrow.png" width="320" height="534"/>
         <image name="eyeliner.jpg" width="318" height="544"/>
         <image name="eyeshadow.jpg" width="900" height="515"/>
+        <image name="facepack.png" width="486" height="550"/>
         <image name="home_2.PNG" width="1440" height="2560"/>
         <image name="jewel_green.PNG" width="2048" height="2048"/>
         <image name="jewel_pink.PNG" width="2048" height="2048"/>
