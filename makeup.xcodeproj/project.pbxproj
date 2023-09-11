@@ -18,6 +18,11 @@
 		FE469C872A9EBE97009CE210 /* eyeliner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C862A9EBE97009CE210 /* eyeliner.jpg */; };
 		FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C882A9EBF17009CE210 /* mascara.jpg */; };
 		FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C8A2A9EBFEE009CE210 /* lip.jpg */; };
+		FE6085802AAF23A60006F522 /* eyeliner-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FE60857F2AAF23A60006F522 /* eyeliner-removebg-preview.png */; };
+		FE6085822AAF23B10006F522 /* eyeshadow-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6085812AAF23B10006F522 /* eyeshadow-removebg-preview.png */; };
+		FE6085852AAF23B80006F522 /* lip-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6085832AAF23B70006F522 /* lip-removebg-preview.png */; };
+		FE6085862AAF23B80006F522 /* mascara-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6085842AAF23B80006F522 /* mascara-removebg-preview.png */; };
+		FE60858C2AAF334D0006F522 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60858B2AAF334D0006F522 /* MyList.swift */; };
 		FE824DC82A8F478400C6E455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DC72A8F478400C6E455 /* AppDelegate.swift */; };
 		FE824DCA2A8F478400C6E455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DC92A8F478400C6E455 /* SceneDelegate.swift */; };
 		FE824DCC2A8F478400C6E455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE824DCB2A8F478400C6E455 /* ViewController.swift */; };
@@ -65,6 +70,11 @@
 		FE469C862A9EBE97009CE210 /* eyeliner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeliner.jpg; sourceTree = "<group>"; };
 		FE469C882A9EBF17009CE210 /* mascara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mascara.jpg; sourceTree = "<group>"; };
 		FE469C8A2A9EBFEE009CE210 /* lip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lip.jpg; sourceTree = "<group>"; };
+		FE60857F2AAF23A60006F522 /* eyeliner-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eyeliner-removebg-preview.png"; sourceTree = "<group>"; };
+		FE6085812AAF23B10006F522 /* eyeshadow-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eyeshadow-removebg-preview.png"; sourceTree = "<group>"; };
+		FE6085832AAF23B70006F522 /* lip-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lip-removebg-preview.png"; sourceTree = "<group>"; };
+		FE6085842AAF23B80006F522 /* mascara-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mascara-removebg-preview.png"; sourceTree = "<group>"; };
+		FE60858B2AAF334D0006F522 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		FE824DC42A8F478400C6E455 /* makeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE824DC72A8F478400C6E455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE824DC92A8F478400C6E455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +145,10 @@
 		FE824DC62A8F478400C6E455 /* makeup */ = {
 			isa = PBXGroup;
 			children = (
+				FE6085832AAF23B70006F522 /* lip-removebg-preview.png */,
+				FE6085842AAF23B80006F522 /* mascara-removebg-preview.png */,
+				FE6085812AAF23B10006F522 /* eyeshadow-removebg-preview.png */,
+				FE60857F2AAF23A60006F522 /* eyeliner-removebg-preview.png */,
 				FE86FEDF2A9F5D2C0068533F /* skincareImage_clear.PNG */,
 				FE86FEDD2A9F5D270068533F /* makeup_clear.PNG */,
 				FE86FEDB2A9F5A640068533F /* makeupImage.PNG */,
@@ -156,6 +170,7 @@
 				FE824DC72A8F478400C6E455 /* AppDelegate.swift */,
 				FE824DC92A8F478400C6E455 /* SceneDelegate.swift */,
 				FE824DCB2A8F478400C6E455 /* ViewController.swift */,
+				FE60858B2AAF334D0006F522 /* MyList.swift */,
 				FE824DCD2A8F478400C6E455 /* Main.storyboard */,
 				FE824DD02A8F478600C6E455 /* Assets.xcassets */,
 				FE824DD22A8F478600C6E455 /* LaunchScreen.storyboard */,
@@ -293,11 +308,15 @@
 				FE86FEDC2A9F5A640068533F /* makeupImage.PNG in Resources */,
 				FE86FEE02A9F5D2C0068533F /* skincareImage_clear.PNG in Resources */,
 				FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */,
+				FE6085802AAF23A60006F522 /* eyeliner-removebg-preview.png in Resources */,
 				FE86FED62A9F5A530068533F /* jewel_green.PNG in Resources */,
 				FE86FED42A9F5A120068533F /* home_2.PNG in Resources */,
+				FE6085852AAF23B80006F522 /* lip-removebg-preview.png in Resources */,
 				FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */,
+				FE6085862AAF23B80006F522 /* mascara-removebg-preview.png in Resources */,
 				FE824DD42A8F478600C6E455 /* LaunchScreen.storyboard in Resources */,
 				FE86FEDE2A9F5D270068533F /* makeup_clear.PNG in Resources */,
+				FE6085822AAF23B10006F522 /* eyeshadow-removebg-preview.png in Resources */,
 				FE824DD12A8F478600C6E455 /* Assets.xcassets in Resources */,
 				8C758BC92AAC19AD0020C24E /* consealer.png in Resources */,
 				FE86FEDA2A9F5A5F0068533F /* skincarexImage.PNG in Resources */,
@@ -331,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE824DCC2A8F478400C6E455 /* ViewController.swift in Sources */,
+				FE60858C2AAF334D0006F522 /* MyList.swift in Sources */,
 				FE824DC82A8F478400C6E455 /* AppDelegate.swift in Sources */,
 				FE824DCA2A8F478400C6E455 /* SceneDelegate.swift in Sources */,
 			);
