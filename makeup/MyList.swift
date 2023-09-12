@@ -11,8 +11,8 @@ class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource, UIText
     
     
     
-    var list: [String] = ["お気に入りコスメ"]
-    
+    var list: [String] = []
+    var userdefaults = UserDefaults.standard
     
     @IBOutlet weak var textField: UITextField!
   
@@ -27,6 +27,10 @@ class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource, UIText
         
         tableview.rowHeight = UITableView.automaticDimension
                 tableview.estimatedRowHeight = 44
+        
+        if let savedList = userdefaults.stringArray(forKey: "savedList") {
+                    list = savedList
+                }
         
         // Do any additional setup after loading the view.
     }
@@ -45,11 +49,14 @@ class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource, UIText
     
     @IBAction func button(_ sender: Any) {
         textField.resignFirstResponder()
+    
         if let text = textField.text, !text.isEmpty{
             list.append(text)
             textField.text = ""
             tableview.reloadData()
         }
+        
+        userdefaults.set(list,forKey: "savedList")
     }
     
     
