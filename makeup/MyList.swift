@@ -7,20 +7,26 @@
 
 import UIKit
 
-class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource, UITextFieldDelegate {
     
     
     
-    var list: [String] = [""]
+    var list: [String] = ["お気に入りコスメ"]
     
     
     @IBOutlet weak var textField: UITextField!
+  
 
     @IBOutlet weak var tableview: UITableView!
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textField.delegate = self
+        tableview.dataSource = self
+        
+        tableview.rowHeight = UITableView.automaticDimension
+                tableview.estimatedRowHeight = 44
         
         // Do any additional setup after loading the view.
     }
@@ -30,7 +36,7 @@ class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell : UITableViewCell = tableview.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel!.text = list[indexPath.row]
         return cell
     }
@@ -39,8 +45,11 @@ class MyList: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBAction func button(_ sender: Any) {
         textField.resignFirstResponder()
-        list.append(textField.text!)
-        tableview.reloadData()
+        if let text = textField.text, !text.isEmpty{
+            list.append(text)
+            textField.text = ""
+            tableview.reloadData()
+        }
     }
     
     
