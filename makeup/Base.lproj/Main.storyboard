@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -579,6 +579,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6L-R0-C4N">
+                                <rect key="frame" x="45" y="652" width="303" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="(URL)"/>
+                                <connections>
+                                    <action selector="tapURL:" destination="07N-CM-l7D" eventType="touchUpInside" id="vYx-en-UjA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hfA-E7-W5P"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -586,6 +595,7 @@
                     <navigationItem key="navigationItem" id="ITp-1d-Bnn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q0Z-Vy-a2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="07N-CM-l7D" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="399.23664122137404" y="1684.5070422535211"/>
         </scene>
@@ -1246,12 +1256,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="PXE-73-1am"/>
         <segue reference="qNu-XJ-OlJ"/>
         <segue reference="wal-GJ-0kh"/>
         <segue reference="SbZ-Xk-cYy"/>
         <segue reference="g4q-cS-ZwA"/>
         <segue reference="huh-lg-UsR"/>
-        <segue reference="Oyg-eR-ZVW"/>
+        <segue reference="FAc-iR-3Xs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1910.png" width="640" height="480"/>
