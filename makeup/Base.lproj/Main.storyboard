@@ -515,6 +515,35 @@
             </objects>
             <point key="canvasLocation" x="-1503.0534351145038" y="2550"/>
         </scene>
+        <!--For URL View Controller-->
+        <scene sceneID="J6b-IP-yXE">
+            <objects>
+                <viewController id="aCm-pJ-gXg" customClass="ForURLViewController" customModule="makeup" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XRY-VD-eyw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlP-rz-fW8">
+                                <rect key="frame" x="159" y="131" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tapURL:" destination="SQ4-41-AWe" eventType="touchUpInside" id="r6M-sY-gRk"/>
+                                    <action selector="tapURL:" destination="aCm-pJ-gXg" eventType="touchUpInside" id="zPj-FR-56e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RNj-GU-fL5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kfp-Xs-AEV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIR-mu-gaY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="SQ4-41-AWe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-1085" y="1700"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Ir9-xO-Gm8">
             <objects>
@@ -590,10 +619,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6L-R0-C4N">
-                                <rect key="frame" x="45" y="355" width="303" height="69"/>
+                                <rect key="frame" x="45" y="607" width="303" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="(URL)"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Video tips"/>
+                                <connections>
+                                    <segue destination="aCm-pJ-gXg" kind="show" id="sG2-13-cRw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hfA-E7-W5P"/>
@@ -658,6 +690,12 @@
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufv-2K-tAq">
+                                <rect key="frame" x="146" y="542" width="100" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Video tips"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9KS-Pw-H92"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -720,6 +758,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2q-9c-7SI">
+                                <rect key="frame" x="159" y="746" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dTA-aw-Hkq"/>
                         <color key="backgroundColor" red="0.7254902124" green="0.8392156959" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -880,6 +924,12 @@
                                     <segue destination="ENv-Iu-TW3" kind="show" id="MAh-8U-9Xc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHn-5P-NRS">
+                                <rect key="frame" x="159" y="654" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mmO-Gk-TKB"/>
                         <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -941,6 +991,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLq-g2-2Bo">
+                                <rect key="frame" x="159" y="739" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kYX-ai-Zeo"/>
                         <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1262,9 +1318,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="N9g-Lk-Ze1"/>
+        <segue reference="poQ-Xc-wmc"/>
         <segue reference="0dC-lc-dYq"/>
         <segue reference="wal-GJ-0kh"/>
-        <segue reference="oTo-zd-aLg"/>
+        <segue reference="0cq-0O-dba"/>
         <segue reference="g4q-cS-ZwA"/>
         <segue reference="GFn-DZ-gNj"/>
         <segue reference="FAc-iR-3Xs"/>

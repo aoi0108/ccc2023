@@ -8,26 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    
+    
+    
 
-    
-   
-    @IBAction func tapURL(_ sender: UIButton) {
-        print("ボタンが押された")
-        if let url = URL(string: "https://www.youtube.com/watch?v=L6o-D99sY0Q") {
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }
-    }
-    
-    
-    
-    
      
             
     //@IBAction func tapURL(_ sender: Any) {
@@ -47,5 +41,5 @@ class ViewController: UIViewController {
     }
     
     
-}
+
 

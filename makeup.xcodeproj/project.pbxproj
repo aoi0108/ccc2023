@@ -12,6 +12,7 @@
 		8C758BC92AAC19AD0020C24E /* consealer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C758BC82AAC19AD0020C24E /* consealer.png */; };
 		8C758BCB2AAC48670020C24E /* nyuueki.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C758BCA2AAC48670020C24E /* nyuueki.png */; };
 		8C758BCD2AAC486C0020C24E /* kesyousui.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C758BCC2AAC486C0020C24E /* kesyousui.png */; };
+		8CD47C572AB2AA9700BA6035 /* ForURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD47C562AB2AA9700BA6035 /* ForURLViewController.swift */; };
 		FE469C812A9EBADC009CE210 /* home_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE469C802A9EBADC009CE210 /* home_3.PNG */; };
 		FE469C832A9EBC49009CE210 /* eyeshadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C822A9EBC49009CE210 /* eyeshadow.jpg */; };
 		FE469C852A9EBD41009CE210 /* eyebrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE469C842A9EBD41009CE210 /* eyebrow.png */; };
@@ -64,6 +65,7 @@
 		8C758BC82AAC19AD0020C24E /* consealer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = consealer.png; sourceTree = "<group>"; };
 		8C758BCA2AAC48670020C24E /* nyuueki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyuueki.png; sourceTree = "<group>"; };
 		8C758BCC2AAC486C0020C24E /* kesyousui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kesyousui.png; sourceTree = "<group>"; };
+		8CD47C562AB2AA9700BA6035 /* ForURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForURLViewController.swift; sourceTree = "<group>"; };
 		FE469C802A9EBADC009CE210 /* home_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_3.PNG; sourceTree = "<group>"; };
 		FE469C822A9EBC49009CE210 /* eyeshadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeshadow.jpg; sourceTree = "<group>"; };
 		FE469C842A9EBD41009CE210 /* eyebrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyebrow.png; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				FE824DCB2A8F478400C6E455 /* ViewController.swift */,
 				FE60858B2AAF334D0006F522 /* MyList.swift */,
 				FE824DCD2A8F478400C6E455 /* Main.storyboard */,
+				8CD47C562AB2AA9700BA6035 /* ForURLViewController.swift */,
 				FE824DD02A8F478600C6E455 /* Assets.xcassets */,
 				FE824DD22A8F478600C6E455 /* LaunchScreen.storyboard */,
 				FE824DD52A8F478600C6E455 /* Info.plist */,
@@ -352,6 +355,7 @@
 				FE824DCC2A8F478400C6E455 /* ViewController.swift in Sources */,
 				FE60858C2AAF334D0006F522 /* MyList.swift in Sources */,
 				FE824DC82A8F478400C6E455 /* AppDelegate.swift in Sources */,
+				8CD47C572AB2AA9700BA6035 /* ForURLViewController.swift in Sources */,
 				FE824DCA2A8F478400C6E455 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
