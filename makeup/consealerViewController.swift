@@ -1,13 +1,13 @@
 //
-//  ForURLViewController.swift
+//  consealerViewController.swift
 //  makeup
 //
-//  Created by 平原　早雪 on 2023/09/14.
+//  Created by 平原　早雪 on 2023/09/19.
 //
 
 import UIKit
 
-class ForURLViewController: UIViewController {
+class consealerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,11 +15,10 @@ class ForURLViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-   
     @IBAction func tapURL(_ sender: Any) {
         print("ボタンが押された")
-        if let url = URL(string: "https://www.youtube.com/watch?v=L6o-D99sY0Q") {
-            //スキンケアの基礎:ななこ
+        if let url = URL(string: "https://youtu.be/nhHE0tZ213I?si=pw3xmc3uYS3TR_qz") {
+            //コンシーラー全般の使い方:美的
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
