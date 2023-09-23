@@ -17,6 +17,10 @@
 		8CD47C992AB9A8B200BA6035 /* mascaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD47C982AB9A8B200BA6035 /* mascaraViewController.swift */; };
 		8CD47C9B2AB9A92F00BA6035 /* eyeBlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD47C9A2AB9A92F00BA6035 /* eyeBlowViewController.swift */; };
 		8CD47C9D2AB9AA3800BA6035 /* consealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD47C9C2AB9AA3800BA6035 /* consealerViewController.swift */; };
+		8CD47CA02ABEE7D100BA6035 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD47C9F2ABEE7D100BA6035 /* Montserrat-VariableFont_wght.ttf */; };
+		8CD47CA22ABEE7DA00BA6035 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD47CA12ABEE7DA00BA6035 /* Montserrat-SemiBold.ttf */; };
+		8CD47CA42ABEE7E000BA6035 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD47CA32ABEE7E000BA6035 /* Montserrat-Thin.ttf */; };
+		8CD47CA62ABEEA7100BA6035 /* jewel_blue.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CD47CA52ABEEA7100BA6035 /* jewel_blue.PNG */; };
 		FE469C812A9EBADC009CE210 /* home_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE469C802A9EBADC009CE210 /* home_3.PNG */; };
 		FE469C832A9EBC49009CE210 /* eyeshadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE469C822A9EBC49009CE210 /* eyeshadow.jpg */; };
 		FE469C852A9EBD41009CE210 /* eyebrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE469C842A9EBD41009CE210 /* eyebrow.png */; };
@@ -74,6 +78,10 @@
 		8CD47C982AB9A8B200BA6035 /* mascaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mascaraViewController.swift; sourceTree = "<group>"; };
 		8CD47C9A2AB9A92F00BA6035 /* eyeBlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeBlowViewController.swift; sourceTree = "<group>"; };
 		8CD47C9C2AB9AA3800BA6035 /* consealerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consealerViewController.swift; sourceTree = "<group>"; };
+		8CD47C9F2ABEE7D100BA6035 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		8CD47CA12ABEE7DA00BA6035 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		8CD47CA32ABEE7E000BA6035 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		8CD47CA52ABEEA7100BA6035 /* jewel_blue.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_blue.PNG; sourceTree = "<group>"; };
 		FE469C802A9EBADC009CE210 /* home_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_3.PNG; sourceTree = "<group>"; };
 		FE469C822A9EBC49009CE210 /* eyeshadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeshadow.jpg; sourceTree = "<group>"; };
 		FE469C842A9EBD41009CE210 /* eyebrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyebrow.png; sourceTree = "<group>"; };
@@ -132,6 +140,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CD47C9E2ABEE79F00BA6035 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CD47C9F2ABEE7D100BA6035 /* Montserrat-VariableFont_wght.ttf */,
+				8CD47CA12ABEE7DA00BA6035 /* Montserrat-SemiBold.ttf */,
+				8CD47CA32ABEE7E000BA6035 /* Montserrat-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FE824DBB2A8F478400C6E455 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +173,7 @@
 		FE824DC62A8F478400C6E455 /* makeup */ = {
 			isa = PBXGroup;
 			children = (
+				8CD47C9E2ABEE79F00BA6035 /* Fonts */,
 				FE6085832AAF23B70006F522 /* lip-removebg-preview.png */,
 				FE6085842AAF23B80006F522 /* mascara-removebg-preview.png */,
 				FE6085812AAF23B10006F522 /* eyeshadow-removebg-preview.png */,
@@ -165,6 +184,7 @@
 				FE86FED92A9F5A5F0068533F /* skincarexImage.PNG */,
 				FE86FED72A9F5A590068533F /* jewel_pink.PNG */,
 				FE86FED52A9F5A530068533F /* jewel_green.PNG */,
+				8CD47CA52ABEEA7100BA6035 /* jewel_blue.PNG */,
 				FE86FED32A9F5A120068533F /* home_2.PNG */,
 				FE469C8A2A9EBFEE009CE210 /* lip.jpg */,
 				8C758BC82AAC19AD0020C24E /* consealer.png */,
@@ -321,10 +341,14 @@
 				8C758BC72AAC0BD30020C24E /* facepack.png in Resources */,
 				8C758BCB2AAC48670020C24E /* nyuueki.png in Resources */,
 				FE86FEDC2A9F5A640068533F /* makeupImage.PNG in Resources */,
+				8CD47CA42ABEE7E000BA6035 /* Montserrat-Thin.ttf in Resources */,
+				8CD47CA22ABEE7DA00BA6035 /* Montserrat-SemiBold.ttf in Resources */,
 				FE86FEE02A9F5D2C0068533F /* skincareImage_clear.PNG in Resources */,
 				FE469C892A9EBF17009CE210 /* mascara.jpg in Resources */,
 				FE6085802AAF23A60006F522 /* eyeliner-removebg-preview.png in Resources */,
+				8CD47CA62ABEEA7100BA6035 /* jewel_blue.PNG in Resources */,
 				FE86FED62A9F5A530068533F /* jewel_green.PNG in Resources */,
+				8CD47CA02ABEE7D100BA6035 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				FE86FED42A9F5A120068533F /* home_2.PNG in Resources */,
 				FE6085852AAF23B80006F522 /* lip-removebg-preview.png in Resources */,
 				FE469C8B2A9EBFEE009CE210 /* lip.jpg in Resources */,
