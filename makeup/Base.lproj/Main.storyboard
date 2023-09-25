@@ -152,6 +152,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="biyou_biyoueki.png" translatesAutoresizingMaskIntoConstraints="NO" id="CiK-zn-Q0q">
+                                <rect key="frame" x="35" y="332" width="327" height="208"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7mq-I7-5Ax"/>
                         <color key="backgroundColor" red="0.55294120309999995" green="0.82352948189999997" blue="0.83529412749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -160,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umW-Jq-giB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-631.29770992366412" y="2550"/>
+            <point key="canvasLocation" x="-631.8840579710145" y="2550"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Tf-M1-9WC">
@@ -274,6 +278,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sitazi.png" translatesAutoresizingMaskIntoConstraints="NO" id="FvM-tc-zkZ">
+                                <rect key="frame" x="56" y="316" width="302" height="204"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jRa-6m-aT9"/>
                         <color key="backgroundColor" red="0.96470588450000005" green="0.80392158030000005" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -281,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfl-fz-eWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1448.0916030534352" y="2530.2816901408451"/>
+            <point key="canvasLocation" x="1447.8260869565217" y="2529.9107142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oWH-Kr-9z0">
@@ -1310,7 +1318,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0dC-lc-dYq"/>
+        <segue reference="qNu-XJ-OlJ"/>
         <segue reference="NoQ-gn-6gu"/>
         <segue reference="QIG-R1-R6v"/>
         <segue reference="f9q-NU-M8s"/>
@@ -1319,6 +1327,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1910.png" width="640" height="480"/>
+        <image name="biyou_biyoueki.png" width="225" height="400"/>
         <image name="consealer.png" width="1336.800048828125" height="3501.60009765625"/>
         <image name="eyebrow.png" width="320" height="534"/>
         <image name="eyeliner-removebg-preview.png" width="318" height="544"/>
@@ -1333,6 +1342,7 @@
         <image name="makeup_clear.PNG" width="1536" height="2048"/>
         <image name="mascara-removebg-preview.png" width="365" height="683"/>
         <image name="nyuueki.png" width="1600.0799560546875" height="1200"/>
+        <image name="sitazi.png" width="1600" height="1200"/>
         <image name="skincareImage_clear.PNG" width="1536" height="2048"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
